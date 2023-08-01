@@ -1,0 +1,26 @@
+{
+  "name": "sanren",
+  "version": "2.0.0",
+  "description": "san",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.66",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.66",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.66",
+    "@vuepress/plugin-search": "^2.0.0-beta.66",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.66",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.234",
+    "vuepress-theme-hope": "2.0.0-beta.234"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.8"
+  }
+}
