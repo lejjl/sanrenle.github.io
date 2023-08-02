@@ -6,7 +6,7 @@ import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
-  base: "/myblog/",
+  base: "/",
 
   locales: {
     "/": {
@@ -34,7 +34,7 @@ export default defineUserConfig({
         },
       },
       // 热键支持
-      hotKeys: ["command", "k"],
+      hotKeys: ["ctrl", "f"],
       // 最大推荐个数
       maxSuggestions: 7,
       // 排除首页

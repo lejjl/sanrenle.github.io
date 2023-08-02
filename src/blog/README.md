@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 hero: true
 bgImage: /blog_background.jpg
 heroFullScreen: true

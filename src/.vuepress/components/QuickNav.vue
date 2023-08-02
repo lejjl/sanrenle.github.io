@@ -181,7 +181,7 @@ export default {
 
 
 <style scoped>
-.el-card /deep/ .el-card__body {
+.el-card ::deep .el-card__body {
     /* 卡片样式 */
     padding: 10px;
     background-color: rgba(191, 119, 32, 0.241);
