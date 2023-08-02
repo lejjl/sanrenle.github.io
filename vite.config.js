@@ -7,6 +7,9 @@ export default ({
         html: {
           mime: 'text/html',
         },
+        chunkFileNames: {
+          '.js': 'application/javascript',
+        },
       },
     },
   },

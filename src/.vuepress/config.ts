@@ -6,7 +6,7 @@ import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url)
 export default defineUserConfig({
-  base: "/",
+  base: "/sanrenle.github.io/",
 
   locales: {
     "/": {
@@ -18,12 +18,12 @@ export default defineUserConfig({
     },
   },
    // 主题设置
-  theme,
+  theme:theme,
   // 插件设置
   plugins: [
     // 注册全局组件的插件
     registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
+      componentsDir: path.resolve(__dirname, '@/components'),
     }),
     // 搜索插件
     searchPlugin({
